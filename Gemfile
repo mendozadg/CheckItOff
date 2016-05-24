@@ -34,3 +34,5 @@ source 'https://rubygems.org'
  gem 'devise'
 
  gem 'shoulda-matchers'
+
+ gem 'figaro', '1.0'

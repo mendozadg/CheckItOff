@@ -1,0 +1,4 @@
+<h1>Hello <%=@user.name%>!</h1>,
+
+<p>Welcome to Check It Off! To confirm your registration, please click the link below.</p>
+<%= link_to "Confirm my account", submit_confirmation_url(@user.confirm_token) %>
